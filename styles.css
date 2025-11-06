@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero img{
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+}
+.hero-text{
+  max-width: 500px;
+  text-align: center;
+}
+.hero-text button{
+  background-color: #011e29;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
